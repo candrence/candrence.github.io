@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中天-中天电视台节目资讯与新闻直播观看指南</title>
+<meta name="description" content="中天电视台相关内容导航，整理中天新闻、中天综合等频道的节目类型、观看方式、新闻直播特点与常见问题，帮助观众快速了解中天频道并找到合适的收看入口。">
+<meta name="keywords" content="中天,中天电视台,中天新闻,中天综合,中天节目,新闻直播,台湾频道">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --ink: #14202e;
+  --ink-soft: #44576b;
+  --line: #dfe6ee;
+  --paper: #f4f7fa;
+  --white: #ffffff;
+  --brand: #0b57a4;
+  --brand-deep: #073a6d;
+  --accent: #d92b2b;
+  --accent-soft: #fdecec;
+  --radius: 10px;
+}
+body {
+  font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Helvetica Neue", Arial, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.7;
+  font-size: 16px;
+}
+a {
+  color: var(--brand);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--accent);
+}
+img {
+  max-width: 100%;
+}
+.wrap {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ---------- 顶栏 ---------- */
+.topbar {
+  background: var(--brand-deep);
+  color: #cfe0f2;
+  font-size: 13px;
+}
+.topbar .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 38px;
+  flex-wrap: wrap;
+}
+.topbar span {
+  letter-spacing: .5px;
+}
+.topbar .top-links a {
+  color: #cfe0f2;
+  margin-left: 16px;
+}
+.topbar .top-links a:hover {
+  color: #fff;
+}
+
+/* ---------- 页眉 ---------- */
+.site-header {
+  background: var(--white);
+  border-bottom: 3px solid var(--brand);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: 0 2px 10px rgba(11, 87, 164, .07);
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 14px 0;
+  flex-wrap: wrap;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.brand-mark {
+  width: 46px;
+  height: 46px;
+  border-radius: 8px;
+  background: linear-gradient(140deg, var(--brand) 0%, var(--accent) 100%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  flex-shrink: 0;
+}
+.brand-text strong {
+  display: block;
+  font-size: 21px;
+  letter-spacing: 2px;
+  color: var(--brand-deep);
+}
+.brand-text small {
+  display: block;
+  font-size: 12px;
+  color: var(--ink-soft);
+  letter-spacing: 1px;
+}
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.main-nav a {
+  display: block;
+  padding: 8px 14px;
+  font-size: 15px;
+  color: var(--ink);
+  border-radius: 6px;
+  font-weight: 500;
+}
+.main-nav a:hover,
+.main-nav a.active {
+  background: #eaf2fb;
+  color: var(--brand);
+}
+
+/* ---------- 首屏 ---------- */
+.hero {
+  background: linear-gradient(120deg, #0a2f57 0%, #0b57a4 58%, #1470c4 100%);
+  color: #fff;
+  padding: 52px 0 46px;
+  position: relative;
+  overflow: hidden;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  right: -120px;
+  top: -80px;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .06);
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  right: 120px;
+  bottom: -160px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: rgba(217, 43, 43, .18);
+}
+.hero-inner {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 36px;
+  line-height: 1.35;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+.hero h1 em {
+  font-style: normal;
+  color: #ffd35c;
+}
+.hero p.lead {
+  font-size: 16px;
+  color: #d8e6f6;
+  margin-bottom: 22px;
+  max-width: 620px;
+}
+.hero-tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 26px;
+}
+.hero-tags span {
+  background: rgba(255, 255, 255, .14);
+  border: 1px solid rgba(255, 255, 255, .28);
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+.hero-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.btn {
+  display: inline-block;
+  padding: 11px 26px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: .2s;
+  border: 1px solid transparent;
+}
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #b81f1f;
+  color: #fff;
+}
+.btn-ghost {
+  border-color: rgba(255, 255, 255, .6);
+  color: #fff;
+}
+.btn-ghost:hover {
+  background: rgba(255, 255, 255, .12);
+  color: #fff;
+}
+.hero-card {
+  background: rgba(255, 255, 255, .1);
+  border: 1px solid rgba(255, 255, 255, .22);
+  border-radius: var(--radius);
+  padding: 22px;
+  backdrop-filter: blur(4px);
+}
+.hero-card h3 {
+  font-size: 16px;
+  margin-bottom: 14px;
+  color: #ffd35c;
+  letter-spacing: 1px;
+}
+.hero-card ul {
+  list-style: none;
+}
+.hero-card li {
+  font-size: 14px;
+  color: #e2edf9;
+  padding: 9px 0 9px 20px;
+  border-bottom: 1px dashed rgba(255, 255, 255, .18);
+  position: relative;
+}
+.hero-card li:last-child {
+  border-bottom: none;
+}
+.hero-card li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 17px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ffd35c;
+}
+
+/* ---------- 通用区块 ---------- */
+.section {
+  padding: 48px 0;
+}
+.section-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 26px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 14px;
+  flex-wrap: wrap;
+}
+.section-head h2 {
+  font-size: 24px;
+  letter-spacing: 1px;
+  position: relative;
+  padding-left: 14px;
+}
+.section-head h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  bottom: 6px;
+  width: 5px;
+  border-radius: 3px;
+  background: var(--accent);
+}
+.section-head p {
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+.bg-white {
+  background: var(--white);
+}
+
+/* ---------- 频道卡片 ---------- */
+.channel-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.channel-card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 24px 22px;
+  transition: .22s;
+  border-top: 4px solid var(--brand);
+}
+.channel-card:nth-child(2) {
+  border-top-color: var(--accent);
+}
+.channel-card:nth-child(3) {
+  border-top-color: #e0a021;
+}
+.channel-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 26px rgba(11, 87, 164, .12);
+}
+.channel-card h3 {
+  font-size: 19px;
+  margin-bottom: 10px;
+  color: var(--brand-deep);
+}
+.channel-card .tagline {
+  font-size: 13px;
+  color: var(--accent);
+  margin-bottom: 12px;
+  letter-spacing: .5px;
+}
+.channel-card p {
+  font-size: 14.5px;
+  color: var(--ink-soft);
+  margin-bottom: 14px;
+}
+.channel-card ul {
+  list-style: none;
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+.channel-card ul li {
+  padding: 5px 0 5px 16px;
+  position: relative;
+}
+.channel-card ul li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--brand);
+}
+
+/* ---------- 观看方式 ---------- */
+.watch-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 28px;
+  align-items: start;
+}
+.watch-list {
+  display: grid;
+  gap: 16px;
+}
+.watch-item {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+.watch-num {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: #eaf2fb;
+  color: var(--brand);
+  font-weight: 700;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.watch-item h3 {
+  font-size: 17px;
+  margin-bottom: 6px;
+}
+.watch-item p {
+  font-size: 14.5px;
+  color: var(--ink-soft);
+}
+.side-note {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 22px;
+}
+.side-note h3 {
+  font-size: 17px;
+  margin-bottom: 12px;
+  color: var(--brand-deep);
+}
+.side-note p {
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin-bottom: 12px;
+}
+.side-note ul {
+  list-style: none;
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+.side-note ul li {
+  padding: 7px 0 7px 18px;
+  position: relative;
+  border-bottom: 1px dashed var(--line);
+}
+.side-note ul li:last-child {
+  border-bottom: none;
+}
+.side-note ul li::before {
+  content: "●";
+  position: absolute;
+  left: 0;
+  font-size: 8px;
+  top: 13px;
+  color: var(--accent);
+}
+
+/* ---------- 节目类型 ---------- */
+.program-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+.program-item {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 20px;
+  text-align: left;
+  transition: .2s;
+}
+.program-item:hover {
+  border-color: var(--brand);
+  box-shadow: 0 8px 20px rgba(11, 87, 164, .1);
+}
+.program-item .icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #0b57a4, #1470c4);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+.program-item h3 {
+  font-size: 16.5px;
+  margin-bottom: 8px;
+}
+.program-item p {
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+
+/* ---------- 新闻资讯 ---------- */
+.news-layout {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 28px;
+  align-items: start;
+}
+.news-main {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 26px;
+}
+.news-main h3 {
+  font-size: 20px;
+  margin-bottom: 14px;
+  color: var(--brand-deep);
+}
+.news-main p {
+  font-size: 15px;
+  color: var(--ink-soft);
+  margin-bottom: 14px;
+}
+.news-main .highlight {
+  background: var(--accent-soft);
+  border-left: 4px solid var(--accent);
+  padding: 14px 18px;
+  border-radius: 6px;
+  font-size: 14.5px;
+  color: #8c1f1f;
+  margin: 18px 0;
+}
+.news-side {
+  display: grid;
+  gap: 16px;
+}
+.news-side .mini-card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px;
+}
+.news-side h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: var(--brand);
+}
+.news-side p {
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+
+/* ---------- 常见问题 ---------- */
+.faq-list {
+  display: grid;
+  gap: 12px;
+}
+.faq-item {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px 22px;
+}
+.faq-item h3 {
+  font-size: 16.5px;
+  margin-bottom: 8px;
+  color: var(--brand-deep);
+  position: relative;
+  padding-left: 22px;
+}
+.faq-item h3::before {
+  content: "Q";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+.faq-item p {
+  font-size: 14.5px;
+  color: var(--ink-soft);
+  padding-left: 22px;
+}
+
+/* ---------- 页脚 ---------- */
+.site-footer {
+  background: #0d1b2a;
+  color: #9fb2c6;
+  padding: 44px 0 24px;
+  margin-top: 12px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1fr;
+  gap: 28px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+.footer-grid h4 {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 14px;
+  letter-spacing: 1px;
+}
+.footer-grid p {
+  font-size: 13.5px;
+  line-height: 1.9;
+}
+.footer-grid ul {
+  list-style: none;
+}
+.footer-grid ul li {
+  font-size: 13.5px;
+  padding: 4px 0;
+}
+.footer-grid ul li a {
+  color: #9fb2c6;
+}
+.footer-grid ul li a:hover {
+  color: #fff;
+}
+.footer-bottom {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 20px;
+  color: #71879d;
+}
+
+/* ---------- 响应式 ---------- */
+@media (max-width: 980px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+  }
+  .channel-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .program-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .watch-layout,
+  .news-layout {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 640px) {
+  .topbar .wrap {
+    height: auto;
+    padding: 8px 20px;
+    gap: 6px;
+  }
+  .topbar .top-links a {
+    margin-left: 0;
+    margin-right: 14px;
+  }
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .main-nav ul {
+    gap: 2px;
+  }
+  .main-nav a {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+  .hero {
+    padding: 36px 0 32px;
+  }
+  .hero h1 {
+    font-size: 26px;
+  }
+  .channel-grid,
+  .program-grid,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .watch-item {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .section {
+    padding: 34px 0;
+  }
+  .section-head h2 {
+    font-size: 20px;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- 顶栏 -->
+<div class="topbar">
+  <div class="wrap">
+    <span>中天频道内容导航 · 节目与新闻观看参考</span>
+    <div class="top-links">
+      <a href="#channels">频道概览</a>
+      <a href="#watch">观看方式</a>
+      <a href="#faq">常见问题</a>
+    </div>
+  </div>
+</div>
+
+<!-- 页眉 -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <div class="brand-mark">中</div>
+      <div class="brand-text">
+        <strong>中天</strong>
+        <small>频道节目与新闻资讯导航</small>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#channels" class="active">频道概览</a></li>
+        <li><a href="#programs">节目类型</a></li>
+        <li><a href="#watch">观看方式</a></li>
+        <li><a href="#news">新闻资讯</a></li>
+        <li><a href="#faq">常见问题</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- 首屏 -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div>
+        <h1>了解<em>中天</em>频道，从节目类型到观看方式一次理清</h1>
+        <p class="lead">中天是华语地区观众较为熟悉的电视频道品牌之一，旗下涵盖新闻、综合等不同类型的内容。本页围绕中天频道的节目构成、新闻直播特点、常见收看渠道与选择建议进行整理，方便第一次接触或想系统了解中天的观众快速建立整体印象。</p>
+        <div class="hero-tags">
+          <span>中天新闻</span>
+          <span>中天综合</span>
+          <span>新闻直播</span>
+          <span>谈话节目</span>
+          <span>综艺娱乐</span>
+        </div>
+        <div class="hero-actions">
+          <a href="#channels" class="btn btn-primary">查看频道概览</a>
+          <a href="#watch" class="btn btn-ghost">了解观看方式</a>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <h3>快速认识中天</h3>
+        <ul>
+          <li>以新闻与综合内容为主的电视频道品牌</li>
+          <li>新闻类节目强调即时性与滚动播报</li>
+          <li>综合类涵盖谈话、生活、娱乐等题材</li>
+          <li>可通过电视、网络等正规渠道收看</li>
+          <li>不同地区可接收的频道范围存在差异</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 频道概览 -->
+  <section class="section" id="channels">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>中天频道概览</h2>
+        <p>按内容定位区分，帮助观众对号入座</p>
+      </div>
+      <div class="channel-grid">
+        <article class="channel-card">
+          <h3>中天新闻</h3>
+          <div class="tagline">即时 · 滚动 · 深度</div>
+          <p>以新闻播报为核心，覆盖时事、财经、社会与国际等方向，通常采用整点或滚动播出的编排方式，适合希望持续跟进最新动态的观众。</p>
+          <ul>
+            <li>整点新闻与即时插播</li>
+            <li>时事评论与深度报道</li>
+            <li>财经与产业信息</li>
+          </ul>
+        </article>
+        <article class="channel-card">
+          <h3>中天综合</h3>
+          <div class="tagline">谈话 · 生活 · 娱乐</div>
+          <p>内容类型更为多元，常包含谈话节目、生活资讯、综艺娱乐等，节奏相对轻松，适合家庭场景下的日常收看。</p>
+          <ul>
+            <li>人物访谈与话题讨论</li>
+            <li>生活消费与健康资讯</li>
+            <li>综艺与娱乐内容</li>
+          </ul>
+        </article>
+        <article class="channel-card">
+          <h3>网络与新媒体内容</h3>
+          <div class="tagline">短 · 快 · 可回看</div>
+          <p>随着收看习惯变化，中天相关内容也会通过官方网络平台发布，形式包括新闻片段、节目花絮与直播回放等，方便移动端观众随时观看。</p>
+          <ul>
+            <li>新闻短视频与要点剪辑</li>
+            <li>节目片段与回看内容</li>
+            <li>网络直播与互动</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 节目类型 -->
+  <section class="section bg-white" id="programs">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>主要节目类型</h2>
+        <p>按内容方向分类，便于按兴趣选择</p>
+      </div>
+      <div class="program-grid">
+        <article class="program-item">
+          <div class="icon">闻</div>
+          <h3>新闻播报</h3>
+          <p>整点新闻、突发连线与滚动更新，强调时效与信息密度，是了解当天重要事件的主要入口。</p>
+        </article>
+        <article class="program-item">
+          <div class="icon">评</div>
+          <h3>时事评论</h3>
+          <p>围绕热点议题展开讨论与分析，通常由主持人搭配来宾进行，适合希望了解多方观点的观众。</p>
+        </article>
+        <article class="program-item">
+          <div class="icon">谈</div>
+          <h3>人物访谈</h3>
+          <p>邀请不同领域嘉宾，围绕经历、观点与行业话题展开对话，节奏相对舒缓，信息偏深度。</p>
+        </article>
+        <article class="program-item">
+          <div class="icon">活</div>
+          <h3>生活资讯</h3>
+          <p>涵盖健康、消费、美食、旅游等日常主题，实用性较强，适合家庭观众按需收看。</p>
+        </article>
+        <article class="program-item">
+          <div class="icon">财</div>
+          <h3>财经产业</h3>
+          <p>关注市场动态、产业趋势与企业话题，为关心经济信息的观众提供参考视角。</p>
+        </article>
+        <article class="program-item">
+          <div class="icon">娱</div>
+          <h3>综艺娱乐</h3>
+          <p>包含游戏、竞赛、音乐等轻松内容，以娱乐性为主，适合休闲时段观看。</p>
+        </article>
+        <article class="program-item">
+          <div class="icon">纪</div>
+          <h3>专题纪实</h3>
+          <p>以专题形式呈现社会、人文与自然等题材，内容篇幅较长，侧重叙事与观察。</p>
+        </article>
+        <article class="program-item">
+          <div class="icon">网</div>
+          <h3>网络原生内容</h3>
+          <p>面向移动端制作的短视频、直播与互动内容，形式灵活，便于碎片时间浏览。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 观看方式 -->
+  <section class="section" id="watch">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>如何收看中天相关内容</h2>
+        <p>常见渠道与选择思路</p>
+      </div>
+      <div class="watch-layout">
+        <div class="watch-list">
+          <article class="watch-item">
+            <div class="watch-num">01</div>
+            <div>
+              <h3>有线电视与数字电视</h3>
+              <p>在可接收相关频道的有线或数字电视系统中，通过机顶盒或电视自带调谐功能搜索频道即可收看。具体频道号与是否包含，取决于所在地区的有线电视运营商与套餐内容。</p>
+            </div>
+          </article>
+          <article class="watch-item">
+            <div class="watch-num">02</div>
+            <div>
+              <h3>官方网络平台与 App</h3>
+              <p>中天相关官方渠道会提供网络直播或节目回看，适合没有电视或希望移动收看的观众。建议以官方公布的信息为准，留意平台的可用地区与观看条件。</p>
+            </div>
+          </article>
+          <article class="watch-item">
+            <div class="watch-num">03</div>
+            <div>
+              <h3>视频平台的节目片段</h3>
+              <p>部分节目内容会以片段形式出现在视频平台上，便于快速浏览重点。片段通常经过剪辑，完整版与播出顺序仍以频道或官方平台为准。</p>
+            </div>
+          </article>
+          <article class="watch-item">
+            <div class="watch-num">04</div>
+            <div>
+              <h3>节目表查询</h3>
+              <p>想按时间收看特定节目，可先查询当日节目表，确认播出时段与节目名称。节目编排可能因突发事件或特别报道临时调整，以实际播出为准。</p>
+            </div>
+          </article>
+        </div>
+        <aside class="side-note">
+          <h3>收看提示</h3>
+          <p>选择收看渠道时，建议优先考虑官方或正规授权平台，画质与稳定性更有保障，也能避免来源不明的链接带来的风险。</p>
+          <ul>
+            <li>确认所在地区是否可接收该频道</li>
+            <li>留意节目表的临时调整</li>
+            <li>网络收看注意账号与隐私安全</li>
+            <li>以官方发布信息为准确依据</li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 新闻资讯 -->
+  <section class="section bg-white" id="news">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>新闻内容与收看习惯</h2>
+        <p>理解新闻频道的编排逻辑</p>
+      </div>
+      <div class="news-layout">
+        <article class="news-main">
+          <h3>新闻频道为什么强调滚动播出</h3>
+          <p>新闻类频道的核心价值在于时效性。与固定栏目为主的综合频道不同，新闻频道通常采用整点新闻加随时插播的编排方式，一旦出现重要事件，节目内容会随之调整。这种编排让观众不必等到固定时段，也能在较短时间内获取最新进展。</p>
+          <p>对于观众而言，理解这一逻辑有助于更高效地收看：想快速了解概况，可以关注整点新闻；想深入了解背景，可以留意评论与专题节目；想持续跟进，则适合关注滚动更新与网络端的即时推送。</p>
+          <div class="highlight">提示：新闻内容会随事件发展不断更新，早前播出的信息可能已被后续报道修正或补充，建议以最新播出内容为准。</div>
+          <p>此外，不同时段新闻节目的侧重点可能有所不同，例如早间偏重交通与生活提示，午间偏重即时动态，晚间则常配合评论与总结。观众可根据自己的时间安排选择合适时段。</p>
+        </article>
+        <div class="news-side">
+          <div class="mini-card">
+            <h4>看新闻的三种方式</h4>
+            <p>快速浏览看标题与要点；系统了解看完整播出；深度理解看评论与专题。三种方式结合，信息获取会更完整。</p>
+          </div>
+          <div class="mini-card">
+            <h4>交叉核对更稳妥</h4>
+            <p>面对重要信息，建议同时参考多个正规来源，避免仅凭单一渠道的片段化内容作出判断。</p>
+          </div>
+          <div class="mini-card">
+            <h4>回看与片段</h4>
+            <p>错过直播时，可通过官方回看或节目片段补看，但需注意片段可能省略上下文。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 常见问题 -->
+  <section class="section" id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>常见问题</h2>
+        <p>关于中天频道的常见疑问整理</p>
+      </div>
+      <div class="faq-list">
+        <article class="faq-item">
+          <h3>中天主要包含哪些频道？</h3>
+          <p>中天是电视频道品牌，通常以新闻与综合类内容为主，不同时期的具体频道设置与名称可能有所调整，建议以官方公布的最新信息为准。</p>
+        </article>
+        <article class="faq-item">
+          <h3>在哪些地区可以收看到中天？</h3>
+          <p>可接收范围取决于当地有线电视、数字电视或网络平台的授权情况，不同地区差异较大。建议向当地运营商或查询官方渠道确认。</p>
+        </article>
+        <article class="faq-item">
+          <h3>没有电视，可以用手机看吗？</h3>
+          <p>可以关注官方网络平台与 App 是否提供直播或回看服务。使用时请通过正规应用商店或官方入口获取，避免来源不明的第三方链接。</p>
+        </article>
+        <article class="faq-item">
+          <h3>节目表和实际播出不一致怎么办？</h3>
+          <p>遇到重大事件或特别报道时，节目编排可能临时调整。此时以实际播出内容为准，稍后可留意官方渠道的说明或回看内容。</p>
+        </article>
+        <article class="faq-item">
+          <h3>如何判断网络上的中天内容是否可靠？</h3>
+          <p>优先选择官方账号或正规平台的发布内容，注意核对发布时间与来源标注。对来源不明、标题夸张的内容保持谨慎，避免二次传播未经证实的信息。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- 页脚 -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>关于本站</h4>
+        <p>本站为中天频道相关内容的导航与信息整理页面，围绕频道类型、节目方向、收看方式与常见问题提供参考，帮助观众更高效地了解与选择收看内容。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#channels">频道概览</a></li>
+          <li><a href="#programs">节目类型</a></li>
+          <li><a href="#watch">观看方式</a></li>
+          <li><a href="#news">新闻资讯</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>观众参考</h4>
+        <ul>
+          <li><a href="#faq">常见问题</a></li>
+          <li><a href="#watch">收看提示</a></li>
+          <li><a href="#programs">节目分类</a></li>
+          <li><a href="#channels">频道定位</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>温馨提示</h4>
+        <ul>
+          <li>以官方渠道信息为准</li>
+          <li>节目编排可能临时调整</li>
+          <li>网络收看注意账号安全</li>
+          <li>重要信息建议交叉核对</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>本页面内容为频道信息整理与观看参考，具体频道设置、节目安排与收看条件请以官方发布为准。</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+  </html>
